@@ -14,4 +14,5 @@ const Button = styled.button`
 console.log(`test-one Button:`, Button);
 
 export const HomebaseButton = ({ children }) => <Button>{children}</Button>;
+console.log(`test-one HomebaseButton:`, HomebaseButton);
 // export const HomebaseButton = () => <button>HOMEBASE</button>;

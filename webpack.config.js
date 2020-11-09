@@ -7,6 +7,6 @@ config.output = {
   libraryTarget: 'amd',
 };
 config.mode = 'development';
-// config.externals = 'react';
+config.externals = { react: 'react', 'react-dom': 'react-dom' };
 
 module.exports = config;
