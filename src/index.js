@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-console.log(`test-one styled:`, styled);
+
+console.log(`test-one`);
 
 const Button = styled.button`
   background: none;
@@ -11,8 +12,5 @@ const Button = styled.button`
   color: white;
 `;
 
-console.log(`test-one Button:`, Button);
-
 export const HomebaseButton = ({ children }) => <Button>{children}</Button>;
-console.log(`test-one HomebaseButton:`, HomebaseButton);
 // export const HomebaseButton = () => <button>HOMEBASE</button>;
