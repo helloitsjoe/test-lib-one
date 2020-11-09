@@ -1,14 +1,4 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"));
-	else if(typeof define === 'function' && define.amd)
-		define(["react"], factory);
-	else if(typeof exports === 'object')
-		exports["test-one"] = factory(require("react"));
-	else
-		root["test-one"] = factory(root["react"]);
-})(window, function(__WEBPACK_EXTERNAL_MODULE_react__) {
-return /******/ (function(modules) { // webpackBootstrap
+define("test-one", ["react"], function(__WEBPACK_EXTERNAL_MODULE_react__) { return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -237,5 +227,4 @@ eval("module.exports = __WEBPACK_EXTERNAL_MODULE_react__;\n\n//# sourceURL=webpa
 
 /***/ })
 
-/******/ });
-});
+/******/ })});;
