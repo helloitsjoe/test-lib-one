@@ -6,6 +6,7 @@ config.output = {
   library: 'test-one',
   libraryTarget: 'amd',
 };
-config.externals = 'react';
+config.mode = 'development';
+// config.externals = 'react';
 
 module.exports = config;
