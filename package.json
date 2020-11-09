@@ -1,17 +1,17 @@
 {
-  "name": "@helloitsjoe/test-one",
+  "name": "test-one",
   "version": "1.0.0",
   "description": "Testing peerDep versions",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "dependencies": {
     "styled-components": "5.0.0"
   },
   "peerDependencies": {
-    "react": "^16.9",
-    "react-is": "^16.9"
+    "react": "^16.9"
   },
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack",
+    "watch": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -22,9 +22,8 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
     "babel-loader": "^8.1.0",
-    "react": "^17.0.1",
-    "react-is": "^17.0.1",
-    "webpack": "^5.3.2",
+    "react": "^16.9",
+    "webpack": "^4",
     "webpack-cli": "^4.1.0",
     "webpack-simple": "^1.6.1"
   }
